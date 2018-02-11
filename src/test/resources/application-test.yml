@@ -1,0 +1,7 @@
+mailsender:
+  aws.ses:
+    accessKey: accessKeyTest
+    secretKey: secretKeyTest
+  sendgrid:
+    baseUrl: http://localhost:${wiremock.server.port}
+    apiKey: TestApiKey

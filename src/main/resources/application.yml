@@ -1,0 +1,11 @@
+mailsender:
+  sendgrid:
+    baseUrl: https://api.sendgrid.com
+    connectionTimeout: 5000
+    socketTimeout: 5000
+  aws.ses:
+    region: eu-west-1
+    connectionTimeout: 5000
+    socketTimeout: 5000
+    requestTimeout: 5000
+logging.level.pl.mniczyporuk.smcc.mailsender: DEBUG
